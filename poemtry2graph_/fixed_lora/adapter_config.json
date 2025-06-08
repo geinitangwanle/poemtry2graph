@@ -1,0 +1,19 @@
+{
+  "base_model_name_or_path": "./models/diffusions",
+  "inference_mode": false,
+  "lora_alpha": 32,
+  "lora_dropout": 0.1,
+  "r": 16,
+  "target_modules": [
+    "to_k",
+    "to_q",
+    "to_v",
+    "to_out.0",
+    "conv1",
+    "conv2",
+    "conv_shortcut",
+    "proj_in",
+    "proj_out"
+  ],
+  "task_type": "DIFFUSION"
+}

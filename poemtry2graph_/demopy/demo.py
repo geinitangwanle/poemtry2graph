@@ -4,7 +4,7 @@ import csv
 from diffusers import StableDiffusionPipeline
 import torch
 
-DEEPSEEK_API_KEY = "sk-164ad8ec739c466aa7a53489f3f9eaaa"
+DEEPSEEK_API_KEY = ""
 
 # 创建输出文件夹
 os.makedirs("output", exist_ok=True)
